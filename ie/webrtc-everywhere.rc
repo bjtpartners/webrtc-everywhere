@@ -73,10 +73,10 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-			VALUE "CompanyName", "Doubango Telecom"
+			VALUE "CompanyName", "Ringover"
 			VALUE "FileDescription", "WebRTC plugin for Safari, IE, Chrome, Opera and Firefox"
 			VALUE "FileVersion", "2.2.4.0"
-			VALUE "LegalCopyright", "(c) 2014-2015 Doubango Telecom.  All rights reserved."
+			VALUE "LegalCopyright", "(c) 2015-2016 Ringover.  All rights reserved."
             VALUE "InternalName", "webrtc-everywhere-ie.dll"
             VALUE "OriginalFilename", "webrtc-everywhere-ie.dll"
 			VALUE "ProductName", "WebRTC Everywhere Plugin"

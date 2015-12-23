@@ -3,8 +3,8 @@
 
 #define MyAppName "webrtc-everywhere"
 #define MyAppVersion "2.2.4.0"
-#define MyAppPublisher "Doubango telecom"
-#define MyAppURL "https://github.com/sarandogou/webrtc-everywhere"
+#define MyAppPublisher "Ringover"
+#define MyAppURL "https://github.com/bjtpartners/webrtc-everywhere"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -26,8 +26,8 @@ DisableDirPage=yes
 DisableReadyPage=no
 DisableFinishedPage=no
 DisableProgramGroupPage=yes
-LicenseFile=C:\Projects\webrtc-everywhere\LICENSE-BSD
-OutputDir=C:\Projects\webrtc-everywhere\wininstall
+LicenseFile=F:\projets_dev\webrtc-everywhere\webrtc-everywhere\LICENSE-BSD
+OutputDir=F:\projets_dev\webrtc-everywhere\webrtc-everywhere\wininstall
 ShowLanguageDialog=no
 OutputBaseFilename=setup
 Compression=lzma
@@ -47,12 +47,12 @@ PrivilegesRequired=lowest
 ;Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\Projects\webrtc-everywhere\Release\npwebrtc-everywhere-npapi.dll"; DestDir: "{userappdata}\{#MyAppName}"; Flags: ignoreversion;
-Source: "C:\Projects\webrtc-everywhere\Release\webrtc-everywhere-common.dll"; DestDir: "{userappdata}\{#MyAppName}"; Flags: ignoreversion;
-Source: "C:\Projects\webrtc-everywhere\Release\webrtc-everywhere-ie.dll"; DestDir: "{userappdata}\{#MyAppName}"; Flags: ignoreversion;
-Source: "C:\Projects\webrtc-everywhere\x64\Release\npwebrtc-everywhere-npapi.dll"; DestDir: "{userappdata}\{#MyAppName}\x64"; Flags: ignoreversion; Check: IsWin64
-Source: "C:\Projects\webrtc-everywhere\x64\Release\webrtc-everywhere-common.dll"; DestDir: "{userappdata}\{#MyAppName}\x64"; Flags: ignoreversion; Check: IsWin64
-Source: "C:\Projects\webrtc-everywhere\x64\Release\webrtc-everywhere-ie.dll"; DestDir: "{userappdata}\{#MyAppName}\x64"; Flags: ignoreversion; Check: IsWin64
+Source: "F:\projets_dev\webrtc-everywhere\webrtc-everywhere\Release\npwebrtc-everywhere-npapi.dll"; DestDir: "{userappdata}\{#MyAppName}"; Flags: ignoreversion;
+Source: "F:\projets_dev\webrtc-everywhere\webrtc-everywhere\Release\webrtc-everywhere-common.dll"; DestDir: "{userappdata}\{#MyAppName}"; Flags: ignoreversion;
+Source: "F:\projets_dev\webrtc-everywhere\webrtc-everywhere\Release\webrtc-everywhere-ie.dll"; DestDir: "{userappdata}\{#MyAppName}"; Flags: ignoreversion;
+Source: "F:\projets_dev\webrtc-everywhere\webrtc-everywhere\x64\Release\npwebrtc-everywhere-npapi.dll"; DestDir: "{userappdata}\{#MyAppName}\x64"; Flags: ignoreversion; Check: IsWin64
+Source: "F:\projets_dev\webrtc-everywhere\webrtc-everywhere\x64\Release\webrtc-everywhere-common.dll"; DestDir: "{userappdata}\{#MyAppName}\x64"; Flags: ignoreversion; Check: IsWin64
+Source: "F:\projets_dev\webrtc-everywhere\webrtc-everywhere\x64\Release\webrtc-everywhere-ie.dll"; DestDir: "{userappdata}\{#MyAppName}\x64"; Flags: ignoreversion; Check: IsWin64
 
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files

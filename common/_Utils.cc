@@ -381,7 +381,7 @@ cpp11::shared_ptr<_File> _Utils::FileConfigGet(bool write /*= false*/)
 	if (SUCCEEDED(SHGetFolderPath(NULL, CSIDL_COMMON_APPDATA, NULL, 0, szPath))) {
 		// Append product-specific path - this path needs to already exist
 		// for GetTempFileName to succeed.
-		PathAppend(szPath, _T("\\Doubango Telecom\\webrtc-everywhere\\"));
+		PathAppend(szPath, _T("\\Ringover\\webrtc-everywhere\\"));
 		if (SUCCEEDED(SHCreateDirectoryEx(NULL, szPath, NULL))) {
 			PathAppend(szPath, _T("\\config.json"));
 			file_config = cpp11::shared_ptr<_File>(new _File(szPath, write));

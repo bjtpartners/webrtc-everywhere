@@ -94,7 +94,7 @@ static const char kRTCDataChannelStateClosed[] = "closed";
 
 // ScreenShare
 static const char kDoubangoScreenshareSourceId[] = "X978DoubangoTelecomScreenCapturer785";
-static const char kDoubangoScreenshareLabel[] = "ScreenCapturer (Doubango Telecom)";
+static const char kDoubangoScreenshareLabel[] = "ScreenCapturer (Ringover)";
 static const char kDoubangoScreenshareKind[] = "video";
 
 #define kMaxParamArgs 10

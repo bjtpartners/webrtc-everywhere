@@ -232,7 +232,7 @@ class _EncryptCtxXOR : public _EncryptCtx
 public:
 	_EncryptCtxXOR()
 	{
-		static const char kCookie[] = "Doubango Telecom";
+		static const char kCookie[] = "Ringover";
 		static const size_t kkCookieSize = sizeof(kCookie) / sizeof(kCookie[0]);
 		const unsigned char* key_ptr = NULL;
 		size_t key_size = 0;
